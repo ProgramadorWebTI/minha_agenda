@@ -1,0 +1,11 @@
+{
+    
+    "autoload" : {
+       "files" : [
+           "conexao/conn.php",
+            "conexao/funcao.php",
+            "init.php"
+        ] 
+    }
+    
+}
