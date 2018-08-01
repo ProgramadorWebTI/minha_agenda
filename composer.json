@@ -4,7 +4,9 @@
        "files" : [
            "conexao/conn.php",
             "conexao/funcao.php",
+            "conexao/helper.php",
             "init.php"
+            
         ] 
     }
     
