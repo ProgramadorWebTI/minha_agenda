@@ -2,6 +2,8 @@
 sequencia de vídeo sobre PHP e PDO
 	
 	<b>#SISTEMA OPERACIONAL</b> <br>
+	[WINDOWS 7 PROFISSIONAL](https://goo.gl/bvkprb)
+
 	<a href="https://goo.gl/bvkprb" title="WINDOWS 7 PROFISSIONAL">WINDOWS 7 PROFISSIONAL</a>
 	<br>
 	<br>
