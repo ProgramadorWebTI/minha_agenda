@@ -20,5 +20,7 @@ sequencia de vídeo sobre PHP e PDO
 [NETBEANS](https://goo.gl/bJCMWm) <br>
 </blockquote>
 <blockquote>
-[PARA GERENCIAR NOSSOS ARQUIVOS DE AUTO LOAD](https://goo.gl/WiRi7K) <br>
+  <p>PARA GERENCIAR NOSSOS ARQUIVOS DE AUTO LOAD</p>
+[COMPOSER](https://goo.gl/WiRi7K) <br>
+[NODEJS](https://goo.gl/W4Nc7t)
 </blockquote>
