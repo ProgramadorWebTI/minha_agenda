@@ -14,6 +14,10 @@ sequencia de vídeo sobre PHP e PDO
 </blockquote>
 
 <blockquote>
+[heidisql](https://goo.gl/VttfhK) <br>
+</blockquote>
+
+<blockquote>
 <p>IDE / EDITOR</p>
 
 [SUBLIME TEXT 3](https://goo.gl/Y542wJ) <br>
