@@ -18,7 +18,7 @@ sequencia de vídeo sobre PHP e PDO
 
 [SUBLIME TEXT 3](https://goo.gl/Y542wJ) <br>
 [NETBEANS](https://goo.gl/bJCMWm) <br>
-
+</blockquote>
 <blockquote>
 [PARA GERENCIAR NOSSOS ARQUIVOS DE AUTO LOAD](https://goo.gl/WiRi7K) <br>
 </blockquote>
