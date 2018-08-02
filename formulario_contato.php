@@ -29,10 +29,9 @@ esta_logado();
                     <button type="submit" class="btn btn-success">cadastrar</button>
                 </div>
                 <?php
-                if (isset($_GET['p']) == 'ok') {
-                    echo "Cadastrado com sucesso!";
-                } else if (isset($_GET['p']) == 'erro') {
-                    echo "Erro, não foi possivel cadastrar!";
+                if (isset($_SESSION['menssagem'])) {
+                    echo $_SESSION['menssagem'];
+                    unset($_SESSION['menssagem']);
                 }
                 ?>
             </form>
@@ -49,9 +48,9 @@ if (isset($_POST['nome_agenda']) && !empty($_POST['nome_agenda'])) {
 
     $resultado = inserir_novo_contato($id, $nome_agenda, $tipo_agenda, $numero_agenda);
     if ($resultado) {
-        header("location: formulario_contato.php?p=ok");
+        header("location: formulario_contato.php");
     } else {
-        header("location: formulario_contato.php?p=erro");
+        header("location: formulario_contato.php");
     }
 }
 
