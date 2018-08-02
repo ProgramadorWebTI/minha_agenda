@@ -5,6 +5,8 @@ esta_logado();
 
 <div class="container">
     <div class="row">
+        <a class="btn btn-primary btn=-sm" href="<?= base_url('formulario_contato.php');?>">Novo contato</a>
+        <hr>
         <table class="table table-bordered">
             <thead>
                 <tr>
