@@ -1,7 +1,7 @@
 # minha_agenda
-sequencia de vídeo sobre PHP e PDO
+#sequencia de vídeo sobre PHP e PDO
 <br>
-
+<blockquote>
 <blockquote>
 [WINDOWS 7 PROFISSIONAL](https://goo.gl/bvkprb) <br>
 </blockquote>
@@ -19,7 +19,6 @@ sequencia de vídeo sobre PHP e PDO
 
 <blockquote>
 <p>IDE / EDITOR</p>
-
 [SUBLIME TEXT 3](https://goo.gl/Y542wJ) <br>
 [NETBEANS](https://goo.gl/bJCMWm) <br>
 </blockquote>
@@ -27,4 +26,5 @@ sequencia de vídeo sobre PHP e PDO
   <p>PARA GERENCIAR NOSSOS ARQUIVOS DE AUTO LOAD</p>
 [COMPOSER](https://goo.gl/WiRi7K) <br>
 [NODEJS](https://goo.gl/W4Nc7t)
+</blockquote>
 </blockquote>
