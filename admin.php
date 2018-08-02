@@ -1,4 +1,5 @@
 <?php require_once './template/header.php';?>
+<?php esta_logado();?>
 
 <div class="container">
 	<div class="row">
