@@ -18,7 +18,7 @@ esta_logado();
                 <?php foreach (seleciona_agenda(ID_USER) as $v): ?>
                     <tr>
                         <td><?= $v->nome_agenda ?></td>
-                        <td><?= $v->numero_agenda ?></td>
+                        <td class="<?php if($v->tipo_agenda == 0){echo "phone_with_ddd";}else{echo "phone";} ?>"><?= $v->numero_agenda ?></td>
                     </tr>
                 <?php endforeach; ?>
 
