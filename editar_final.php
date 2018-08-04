@@ -16,8 +16,8 @@ if (isset($_POST['nome_agenda'])) {
 		header("location: admin.php");
 		die();
 	} else {
-		header("location: admin.php");
 		$_SESSION['menssagem'] = '<p class="alert alert-danger text-center">Erro, não foi possivel editar!</p>';
+		header("location: admin.php");
 		die();
 	}
 
