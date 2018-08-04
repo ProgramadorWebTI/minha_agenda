@@ -1,5 +1,12 @@
 <?php
 
+function delete($id) {
+	$sql = "DELETE FROM agendas WHERE id_agenda = ?";
+	$stmt = pdo()->prepare($sql);
+	$stmt->bindValue(1, $id);
+	$stmt->execute();
+}
+
 function inserir_novo_contato($id, $nome_agenda, $tipo_agenda, $numero_agenda) {
 	$sql = "INSERT INTO agendas (usuario_id,nome_agenda,tipo_agenda,numero_agenda) VALUES(?,?,?,?)";
 	$stmt = pdo()->prepare($sql);
