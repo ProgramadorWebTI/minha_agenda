@@ -21,7 +21,7 @@ esta_logado();
                         <td><?=$v->nome_agenda?></td>
                         <td class="<?php if ($v->tipo_agenda == 0) {echo "phone_with_ddd";} else {echo "phone";}?>"><?=$v->numero_agenda?></td>
                         <td>
-                            <a href="">Editar</a>
+                            <a href="/editar.php?id=<?=$v->id_agenda?>">Editar</a>
                             <a href="/deletar.php?id=<?=$v->id_agenda?>">Deletar</a>
                         </td>
                     </tr>
@@ -29,6 +29,12 @@ esta_logado();
 
             </tbody>
         </table>
+         <?php
+if (isset($_SESSION['menssagem'])) {
+	echo $_SESSION['menssagem'];
+	unset($_SESSION['menssagem']);
+}
+?>
     </div>
 </div>
 
