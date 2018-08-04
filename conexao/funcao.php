@@ -1,5 +1,31 @@
 <?php
 
+function edita($nome, $tipo, $numero, $id) {
+	$sql = "UPDATE agendas SET nome_agenda = ?, tipo_agenda=?, numero_agenda=? WHERE id_agenda = ? ";
+	$stmt = pdo()->prepare($sql);
+	$stmt->bindValue(1, $nome);
+	$stmt->bindValue(2, $tipo);
+	$stmt->bindValue(3, $numero);
+	$stmt->bindValue(4, $id);
+	if ($stmt->execute()) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+function select_id($id) {
+	$sql = "SELECT * FROM agendas WHERE id_agenda = ?";
+	$stmt = pdo()->prepare($sql);
+	$stmt->bindValue(1, $id);
+	$stmt->execute();
+	if ($stmt->rowCount() > 0) {
+		return $stmt->fetch(\PDO::FETCH_OBJ);
+	} else {
+		return false;
+	}
+}
+
 function delete($id) {
 	$sql = "DELETE FROM agendas WHERE id_agenda = ?";
 	$stmt = pdo()->prepare($sql);
